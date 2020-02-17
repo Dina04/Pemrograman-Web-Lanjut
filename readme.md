@@ -3,5 +3,5 @@
 <h3> 1841720016 </h3><br>
 <h3> TI-2B </h3><br>
 
-[Jobsheet Link](https://github.com/Dina04/Pemrograman-Web-Lanjut/tree/master/jobsheet)
+[Jobsheet Link](https://github.com/Dina04/Pemrograman-Web-Lanjut/tree/master/Jobsheet)
 
