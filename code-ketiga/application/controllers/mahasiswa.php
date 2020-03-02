@@ -9,6 +9,13 @@ class mahasiswa extends CI_Controller
         //digunakan untuk menjalankan fungsi constrauct pada class parrent(ci_controller)
         parent::__construct();
         $this->load->model('mahasiswa_model');
+        $this->load->library('form_validation');
+
+        //validasi level
+        if ($this->session->userdata('level') != "admin") {
+
+            redirect('login', 'refresh');
+        }
     }
 
     public function index()
